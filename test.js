@@ -1,1 +1,1 @@
-console.log('Welcome to Git lesson');
+console.log('Conflict Mihai');
