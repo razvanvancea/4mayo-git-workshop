@@ -23,4 +23,6 @@ function checkType(variabila){
     else 
     return "Acesta este numar"
 }
-console.log(checkType(true));
+console.log(checkType(true)); 
+
+//test bianca
