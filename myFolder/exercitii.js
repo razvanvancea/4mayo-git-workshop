@@ -24,3 +24,48 @@ function checkType(variabila){
     return "Acesta este numar"
 }
 console.log(checkType(true));
+
+//de returnat ultimul element 
+
+const listaMasini = ['Skoda', 'mazda', 'dacia']
+const lastCar = (listaMasini) => {
+
+    return listaMasini[listaMasini.lenght - 1]
+
+   //returneaza primul element
+    return listaMasini[0]
+}
+
+console.log(lastCar(listMasini))
+
+//transformare ore in secunde
+
+const hoursToSeconds = (numberOfHour) => {
+    return numberOfHour * 360
+}
+console.log (hourToSeconds(2))
+
+
+// afisare numerel pana la o anumita valoare
+
+const printNumbers = function(number){
+    for(let i=0;i<=number;i++){
+        console.log(i)
+    }
+ 
+}
+printNumbers(10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
