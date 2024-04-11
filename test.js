@@ -1,1 +1,1 @@
-console.log('Welcome to Git lessonxxxx');
+console.log('Welcome to Git');
