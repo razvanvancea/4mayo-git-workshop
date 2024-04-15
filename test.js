@@ -1,4 +1,4 @@
-console.log('Scandal');
+console.log('Welcome to Git');
 modificare in github
 
 
