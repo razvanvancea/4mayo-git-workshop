@@ -1,6 +1,9 @@
-console.log('Welcome to Git');
-modificare in github
+let MyName="Estera";
+MyName="Cristi";
+const age = 25;
 
-
-
-MODIFICARE IN REMOTE MAIN
+console.log("Salutare"+MyName);
+console.log("Salutare"+MyName);
+console.log("Salutare"+MyName);
+console.log("Salutare"+MyName);
+console.log("Salutare"+MyName);
