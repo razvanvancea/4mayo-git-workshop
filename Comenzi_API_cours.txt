@@ -1,0 +1,5 @@
+npx mocha est/est.js
+ npx mocha est/est.js --timeout-10000
+./mode_module/.bin/mocha est/est.js
+npm run api
+./node_modules/mocha/bin/mocha.js
