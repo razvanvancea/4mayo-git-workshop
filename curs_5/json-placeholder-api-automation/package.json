@@ -1,0 +1,16 @@
+{
+  "name": "json-placeholder-api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests --timeout=10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "pactum": "^3.6.8"
+  }
+}
