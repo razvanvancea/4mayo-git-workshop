@@ -1,4 +1,7 @@
 describe ("Ath test suite", () => {
+    beforeEach (() => {
+    console.log ("authentification");
+    })
     it ("test 1", () => {
         console.log ('test1')
     })
