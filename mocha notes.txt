@@ -1,0 +1,6 @@
+before() is run once before all the tests in a describe
+after()   is run once after all the tests in a describe
+beforeEach() is run before each test in a describe
+afterEach()   is run after each test in a describe
+
+Which one you want to use depends on your actual test
