@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "mocha",
+    "runtest13": "npx mocha test --timeout-10000"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "pactum": "^3.6.8"
+  }
+}
