@@ -18,7 +18,13 @@ describe ("POST test suite", () =>{
             "body":"altceva"
         }
         await spec().post(`${baseURL}/posts`)
-        .withBody(`${requestBody}`)
+        .withBody(`${requestBody}.title`)
+        .withBody(`${requestBody}.body`)
         .expectStatus(201);
+    });
+
+    it ("delete posts", async () => {
+        await spec().delete(`${baseURL}/posts/1`).expectStatus(200)
+
     });
 });
