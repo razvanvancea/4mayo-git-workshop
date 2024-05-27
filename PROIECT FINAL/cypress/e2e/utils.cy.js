@@ -1,3 +1,5 @@
-describe('Ath site test suite', () => {
-    
-})
+    class PersonalDetails {
+        getRegistAuccountBtn () {
+            return cy.get('button.btn > .fa-check');
+        }
+    }
