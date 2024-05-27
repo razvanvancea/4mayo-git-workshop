@@ -15,10 +15,10 @@ describe('Ath site test suite', () => {
     cy.contains("Your Address");
     cy.get('#AccountFrm_address_1').click().type('Bulevardul Pipera 1/1');
     cy.get('#AccountFrm_city').click().type('Voluntari');
-    // cy.get('select[name="zone_id"]').select('2679');
-    // cy.get('select[name="zone_id"]').find('option:selected').should('have.text', 'Alba');
     cy.get('#AccountFrm_postcode').click().type('077190');
     cy.get('select[name="country_id"]').select('Romania').find('option:selected').should('have.text', 'Romania');
+    cy.get('select[name="zone_id"]').select('2679');
+    cy.get('select[name="zone_id"]').find('option:selected').should('contain.text', 'Alba');
     cy.get('#AccountFrm_loginname').click().type('Esther_Anna');
     cy.get('#AccountFrm_password').click().type('esther89');
     cy.get('#AccountFrm_confirm').click().type('esther89');
