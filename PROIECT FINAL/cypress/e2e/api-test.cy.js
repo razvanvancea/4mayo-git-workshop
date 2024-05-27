@@ -11,7 +11,7 @@ describe('Ath site test suite', () => {
     cy.contains("Create Account");
     cy.get('#AccountFrm_firstname').click().type('Esther').should('have.value', 'Esther');
     cy.get('#AccountFrm_lastname').type('Anna').should('have.value', 'Anna');
-    cy.get('#AccountFrm_email').type('estera.mircea@gmail.com').should('have.value', 'estera.mircea@gmail.com');
+    cy.get('#AccountFrm_email').type('ana.mircea@gmail.com').should('have.value', 'ana.mircea@gmail.com');
     cy.contains("Your Address");
     cy.get('#AccountFrm_address_1').click().type('Bulevardul Pipera 1/1');
     cy.get('#AccountFrm_city').click().type('Voluntari');
