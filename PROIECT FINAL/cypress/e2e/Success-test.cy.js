@@ -1,6 +1,5 @@
 describe('Ath site test suite', () => {
 
-
   const baseUrl = "https://automationteststore.com/"
   
   it('Register Acount with success test', () => {

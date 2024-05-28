@@ -1,6 +1,5 @@
 describe('Edit account name test.cy suite', () => {
 
-
     const baseUrl = "https://automationteststore.com/"
     
     it('Auth Acount with success test', () => {

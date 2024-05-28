@@ -1,6 +1,5 @@
 describe('Login Logout test suite', () => {
 
-
     const baseUrl = "https://automationteststore.com/"
     
     it('Auth Acount with success test', () => {
