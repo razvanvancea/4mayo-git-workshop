@@ -15,7 +15,8 @@ describe('Edit account name test.cy suite', () => {
       cy.contains("My Account Information");
       cy.get('#AccountFrm_firstname').click().type(' Mircea').should('have.value', 'Esther Mircea');
       cy.get('button.btn.lock-on-click > .fa.fa-check').click();
-      cy.contains("Success: Your account has been successfully updated.");
+      cy.contains('div.alert.alert-success', 'Success: Your account has been successfully updated.').should('be.visible');
+
     })
   
   })
