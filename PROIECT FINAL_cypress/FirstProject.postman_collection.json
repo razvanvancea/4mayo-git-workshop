@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "6c937d1a-bd3d-4a86-b1ef-4aaa79587362",
+		"name": "FirstProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34449543"
+	},
+	"item": [
+		{
+			"name": "Swagger",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://clickup.com/features/tasks?utm_source=google&utm_medium=cpc&utm_campaign=gs_cpc_em_nnc_nb_trial_all-devices_troas_lp_x_all-departments_x_lists&utm_content=all-countries_kw-target_text_x_all-features_all-use-cases_lists-task-list&utm_term=b_task%20list&utm_creative=672114914778_Champion-4272023_rsa&utm_custom1=&utm_custom2=&gad_source=1&gclid=CjwKCAjwo6GyBhBwEiwAzQTmczy4qvdwfklkBGs12sQILixBsvURrUQadcZ5XvSv4Hs4gIWkR_IzWxoCN4YQAvD_BwE/",
+					"protocol": "https",
+					"host": [
+						"clickup",
+						"com"
+					],
+					"path": [
+						"features",
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "utm_source",
+							"value": "google"
+						},
+						{
+							"key": "utm_medium",
+							"value": "cpc"
+						},
+						{
+							"key": "utm_campaign",
+							"value": "gs_cpc_em_nnc_nb_trial_all-devices_troas_lp_x_all-departments_x_lists"
+						},
+						{
+							"key": "utm_content",
+							"value": "all-countries_kw-target_text_x_all-features_all-use-cases_lists-task-list"
+						},
+						{
+							"key": "utm_term",
+							"value": "b_task%20list"
+						},
+						{
+							"key": "utm_creative",
+							"value": "672114914778_Champion-4272023_rsa"
+						},
+						{
+							"key": "utm_custom1",
+							"value": ""
+						},
+						{
+							"key": "utm_custom2",
+							"value": ""
+						},
+						{
+							"key": "gad_source",
+							"value": "1"
+						},
+						{
+							"key": "gclid",
+							"value": "CjwKCAjwo6GyBhBwEiwAzQTmczy4qvdwfklkBGs12sQILixBsvURrUQadcZ5XvSv4Hs4gIWkR_IzWxoCN4YQAvD_BwE/"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
