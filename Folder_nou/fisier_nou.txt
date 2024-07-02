@@ -1,2 +1,2 @@
 Acesta e fisierul updatat. Ce se intampla daca dau commit cu acelasi branch name?
-second commit
+second commitupdated file
